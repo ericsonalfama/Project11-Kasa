@@ -1,0 +1,19 @@
+@import "../../utils/mixin.scss";
+@import "../../utils/variables.scss";
+
+.stars-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .full-star {
+    color: $primary-color;
+    width: 32px;
+    height: 32px;
+  }
+
+  .empty-star {
+    color: $grey;
+    width: 32px;
+    height: 32px;
+  }

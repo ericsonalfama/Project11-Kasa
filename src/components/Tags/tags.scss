@@ -1,0 +1,24 @@
+@import "../../utils/mixin.scss";
+@import "../../utils/variables.scss";
+
+.logement__tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.tags_li {
+    background-color: $primary-color;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-size: .9rem;
+    line-height: 25px;
+    padding: 0 10px;
+    list-style: none;
+    min-width: 115px;
+}
+

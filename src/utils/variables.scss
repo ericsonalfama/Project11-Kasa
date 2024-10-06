@@ -1,0 +1,38 @@
+$primary-color: #ff6060;
+$secondary-color: #f7f7f7;
+$tertiary-color: #FFFFFF;
+$grey: #E3E3E3;
+$footer-color: #000000;
+$background-color: rgba(0, 0, 0, 0.3);
+$linear-cards: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+
+$about-background: $background-color url(../../assets/mountain2.png);
+$about-background-mobile: $background-color url(../../assets/mountain2.png);
+$banner-background: $background-color url(../../assets/mountain1.png);
+$img-height-large: 415px;
+
+$breakpoint-desktop: 769px;
+
+$wmin: 375px;
+$wmax: 768px;
+
+// Spacer
+$base-spacing: 30px;
+$base-spacing-sm: 20px;
+
+// Image Sizes
+$img-height-large: 415px;
+$img-height-medium: 225px;
+$img-height-sm-medium: 115px;
+$img-height-sm-large: 335px;
+$img-height-thumb: 340px;
+
+// Max Width Screen
+$max-screen-lg: 1300px;
+$max-screen-md: 1024px;
+
+// Responsive Breakpoint
+$screen-xl: 1200px;
+$screen-lg: 1024px;
+$screen-md: 992px;
+$screen-sm: 768px;
