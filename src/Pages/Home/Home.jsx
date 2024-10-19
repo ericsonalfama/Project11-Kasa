@@ -1,8 +1,9 @@
+import React from 'react';
 import Header from "../../components/Header/header.jsx";
 import Banner from "../../components/Banner/banner.jsx";
 import Gallery from "../../components/Gallery/Gallery.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import './App.scss'
+import './Home.scss'
 
 function Home() {
   return (
