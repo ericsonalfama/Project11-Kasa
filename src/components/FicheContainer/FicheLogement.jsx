@@ -21,7 +21,7 @@ function FicheContainer({ logement }) {
         },
         {
             title: 'Equipements',
-            content: logement.equipments, // Mantenha como array para renderizar como lista
+            content: logement.equipments,
         },
     ];
 
@@ -55,7 +55,7 @@ function FicheContainer({ logement }) {
                         <Stars rating={logement.rating} />
                     </aside>
                 </div>
-                <Accordion items={accordionItems} /> {/* Usando Accordion com dados dinâmicos */}
+                <Accordion items={accordionItems} />
             </section>
         </div>
     );

@@ -7,7 +7,6 @@ import { about } from "../../data/apropos";
 import './about.scss'
 
 function About() {
-    // Mapeia os dados do array 'about' para o formato esperado pelo componente Accordion
     const aboutItems = about.map((item) => ({
         title: item.name,
         content: item.content,

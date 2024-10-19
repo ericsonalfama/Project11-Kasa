@@ -26,7 +26,6 @@ function Caroussel({ pictures }) {
   };
 
   useEffect(() => {
-    // Set up the interval for automatic slideshow
     startInterval();
     return () => {
       clearInterval(intervalRef.current);
