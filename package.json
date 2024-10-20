@@ -15,7 +15,7 @@
     "styled-components": "^6.1.12",
     "web-vitals": "^4.2.3"
   },
-  "homepage": "https://ericsonalfama.github.io/",
+  "homepage": "https://ericsonalfama.github.io/Project11-Kasa",
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
